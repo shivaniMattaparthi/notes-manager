@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #f4f4f4;
+}
+
+.row {
+  display: flex;
+  width: 90%;
+  max-width: 1200px;
+  height: 80vh;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.editor {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.editor-input {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.preview {
+  width: 50%;
+  padding: 20px;
+  overflow-y: auto;
+  border-left: 2px solid #ddd;
+  background: #fafafa;
+}
+
+
+
+/* Custom Font Styles */
+/* .ql-font-arial {
+  font-family: Arial, sans-serif;
+}
+.ql-font-courier {
+  font-family: Courier, monospace;
+}
+.ql-font-georgia {
+  font-family: Georgia, serif;
+}
+.ql-font-times-new-roman {
+  font-family: "Times New Roman", serif;
+}
+.ql-font-verdana {
+  font-family: Verdana, sans-serif;
+} */
