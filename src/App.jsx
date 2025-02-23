@@ -5,7 +5,7 @@ import BubbleEditor from './BubbleTheme'
 function App() {
   return (
     <div>
-      {/* <ReactQui/> */}
+      {/* <ReactQui/>  */}
       <BubbleEditor/>
     </div>
   )

@@ -28,7 +28,6 @@ function ReactQui() {
   const [value, setValue] = useState("");
   const [savedContent, setSavedContent] = useState(null);
 
-  // Save content to local storage
   const handleSave = () => {
     if(value === ""){
       alert("write Something")
@@ -39,7 +38,6 @@ function ReactQui() {
   
   };
 
-  // Load content from local storage
   const handleShowContent = () => {
     const storedContent = localStorage.getItem("editorContent");
     if (storedContent) {
